@@ -1,6 +1,6 @@
-package com.company;
-
-
+import test.TestA;
+import test.TestB;
+import test.TestC;
 import org.apache.log4j.PropertyConfigurator;
 
 public class Main {

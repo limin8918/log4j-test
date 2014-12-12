@@ -1,11 +1,11 @@
-package com.company;
+package test;
 
 import org.apache.log4j.Logger;
 
-public class TestB {
+public class TestC {
     private final Logger LOG = Logger.getLogger(getClass());
 
     public void outputLog () {
-        LOG.info("this is B class");
+        LOG.warn("this is C class");
     }
 }
