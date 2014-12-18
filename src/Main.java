@@ -2,6 +2,7 @@ import test.TestA;
 import test.TestB;
 import test.TestC;
 import org.apache.log4j.PropertyConfigurator;
+import test.TestD;
 
 public class Main {
 
@@ -16,6 +17,9 @@ public class Main {
 
         TestC c = new TestC();
         c.outputLog();
+
+        TestD d = new TestD();
+        d.outputLog();
 
         System.out.print("finish");
     }
